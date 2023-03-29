@@ -6,7 +6,7 @@ function PageNotFound({title}) {
 
   useEffect(() => {
     document.title=`${title}/Cinemate`
-  }, [])
+  }, [title])
   
 
   return (
